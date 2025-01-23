@@ -228,13 +228,18 @@
     .nav_bar ul {
         list-style: none;
         display: flex;
+        margin: 0px;
+        margin-left: -20px;
+        width: 100%;
         justify-content: space-between;
-        gap: 10px;
+        gap: 6px;
         align-items: center;
     }
 
     .nav_bar li {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        padding: 2px;
+        border-right: 1px solid white;
     }
 
     /* display flex colum block make  */
